@@ -1,0 +1,1 @@
+SELECT resource_type, resource_unit_cost, resource_unit_price, master_project_name, master_project_code, weekstartdate FROM relus360_netsuite_reports.pm_dashboard_master WHERE control_level = 'actuals_dtl'

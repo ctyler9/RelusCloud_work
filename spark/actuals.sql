@@ -1,0 +1,1 @@
+SELECT resource_full_name, master_project_name, master_project_code, resource_hours, weekstartdate FROM relus360_netsuite_reports.pm_dashboard_master WHERE control_level = 'actuals_dtl' AND resource_full_name IS NOT NULL
